@@ -5,8 +5,7 @@
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
+ 
   }
 .banner-top-section {
     width: 1440px;
@@ -67,11 +66,11 @@
 }
 
 .banner-section>p{
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 400;
     padding: 0 294px;
     text-align: center;
-    color:rgb(1319 33)
+    color:gray;
 
 }
 .banner-section>button{
@@ -82,7 +81,7 @@
     color: white;
     background-color: black;
 }
-
+/* web development section */
 .development-sections {
     width: 1140px;
     height: 1393px;
@@ -93,26 +92,77 @@
 
 .development-section {
     width: 946px;
-    height: 1233px;
+    height: 1235px;
     border: 1px solid rgb(255, 162, 0);
     margin: 0 auto;
     margin-top: 90px;
 }
 
-.card-section {
+.devlopment-section-header-text{
+text-align: center;
+font-size: 38px;
+font-weight: 700;
+}
+.title-text{
+padding: 20px;
+font-size: 24px;
+text-align: center;
+color: gray;
+}
+
+.development-section-box1 {
     width: 946px;
     height: 336px;
     border: 1px solid rgb(255, 162, 0);
     margin-top: 25px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.card-section-text {
-    width: 60%;
+.development-section-text {
+    width: 50%;
     border: 1px solid rgb(29, 29, 29);
 }
+.development-section-text>h2{
+font-size: 30px;
+font-weight: 700;
+}
+.development-section-text>p{
+    font-size: 24px;
+    color: gray;
+ }
+ .btn-common{
+    padding: 12px 20px 12px 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+
+ }
 
 .card-section-img {
-    width: 40%;
+    width: 50%;
     border: 1px solid rgb(228, 12, 12);
+    padding-left: 20px;
+}
+.my-insperation-section{
+    width: 1140px;
+    height: 777px;
+    border: 2px solid blue;
+    margin: 0 auto;
+}
+.youtube-vedio{
+    text-align: center;
+}
+.my-current-target-section{
+    width: 1140px;
+    height: 470px;
+    border: 3px solid red;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.my-current-target-box{
+    border: 3px solid red;
+    width: 363px;
+    height: 299px;
 }
